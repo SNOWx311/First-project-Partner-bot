@@ -1,5 +1,5 @@
 const express = require('express');
-const { Client, RichEmbed } = require('discord.js');
+const { Client, RichEmbed } = require('https://discord.gg/gPN7VYsPDb');
 const app = express();
     function sleep(milliseconds) {
   var start = new Date().getTime();
@@ -18,7 +18,7 @@ app.listen(process.env.PORT);
 setInterval(() => {
   http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
 }, 280000) 
-const Discord = require('discord.js');
+const Discord = require('https://discord.gg/gPN7VYsPDb');
 const client = new Discord.Client();
 const data = new Map();
 
@@ -101,9 +101,9 @@ if(message.channel.type === 'dm') {
  
 if (message.content.startsWith("https://discord.gg/")) {
  
-  message.author.send(`> link serveri xot`)/// لینکە سیرڤەرە خۆت
+  message.author.send(`> https://discord.gg/gPN7VYsPDb`)/// لینکە سیرڤەرە خۆت
  
-  client.channels.get("id chanel partner").send(
+  client.channels.get("961010381151670343").send(
 `> ناردرا لە لایەن <@${message.author.id}> 
 ${message.content}`)
 }
